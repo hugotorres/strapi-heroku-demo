@@ -11,7 +11,7 @@ module.exports = ({ env }) => {
           connection: 'bookshelf',
           settings:{
             client: 'postgres',
-            host: copngif.host,
+            host: config.host,
             port: config.port,
             database: config.database,
             username: config.config.user,
