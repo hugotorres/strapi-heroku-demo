@@ -1,4 +1,4 @@
-const parse = require('0pf-connection-string').parse;
+const parse = require('pf-connection-string').parse;
 
 module.exports = ({ env }) => {
 
