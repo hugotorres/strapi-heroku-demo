@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,11 +18,14 @@
       "type": "boolean"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "products": {
-      "via": "categories",
-      "collection": "product"
+      "collection": "product",
+      "via": "categories"
+    },
+    "long_description": {
+      "type": "richtext"
     }
   }
 }
