@@ -23,9 +23,6 @@
     "products": {
       "collection": "product",
       "via": "categories"
-    },
-    "long_description": {
-      "type": "richtext"
     }
   }
 }

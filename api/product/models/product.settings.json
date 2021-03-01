@@ -25,16 +25,8 @@
       "collection": "category",
       "dominant": true
     },
-    "image": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "long_description": {
+      "type": "richtext"
     }
   }
 }
