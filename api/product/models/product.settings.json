@@ -21,8 +21,8 @@
       "type": "boolean"
     },
     "categories": {
-      "collection": "category",
       "via": "products",
+      "collection": "category",
       "dominant": true
     },
     "image": {
