@@ -12,7 +12,8 @@ module.exports = ({ env }) => {
           settings:{
             client: 'postgres',
             host: copngif.host,
-            port: config.portdatabse: config.database,
+            port: config.port,
+            database: config.database,
             username: config.config.user,
             password: config.password
           },
